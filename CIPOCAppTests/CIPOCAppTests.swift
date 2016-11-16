@@ -31,7 +31,7 @@ class CIPOCAppTests: XCTestCase {
     func testAddCalculation()
     {
         let result = vc.addValues(20, 20)
-        XCTAssert(result == 30)
+        XCTAssert(result == 40)
     }
     
     
