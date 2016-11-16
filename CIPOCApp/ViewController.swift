@@ -21,7 +21,15 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    //Adding two values
+    func addValues(valueOne: Float, _ valueTwo: Float) -> Float {
+        return valueOne + valueTwo
+    }
 
-
+    //Subtract two values
+    func subValues(valueOne: Float, _ valueTwo: Float) -> Float {
+        return valueOne * valueTwo
+    }
 }
 
